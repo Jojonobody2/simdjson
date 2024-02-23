@@ -9,12 +9,7 @@ project "simdjson"
 
 	files
 	{
- 		"src/**.cpp"
-	}
-
-	includedirs
-	{
-		"include"
+ 		"singleheader/simdjson.cpp"
 	}
 
 	filter "system:linux"
